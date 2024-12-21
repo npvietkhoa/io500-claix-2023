@@ -85,7 +85,7 @@ function build_ior {
 function build_pfind {
   pushd "$BUILD"/pfind
   ./prepare.sh
-  ./compile.sh
+  CC=$MPICC ./compile.sh
   ln -sf "$BUILD"/pfind/pfind "$BIN"/pfind
   echo "Pfind: OK"
   echo

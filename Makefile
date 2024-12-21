@@ -1,4 +1,4 @@
-CC = mpicc
+CC=${MPICC}
 CFLAGS += -std=gnu99 -Wall -Wempty-body -Werror -Wstrict-prototypes -Werror=maybe-uninitialized -Warray-bounds
 
 IORCFLAGS = $(shell grep CFLAGS ./build/ior/src/build.conf | cut -d "=" -f 2-)
