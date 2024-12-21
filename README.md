@@ -9,7 +9,9 @@ To retrieve the required packages and compile the library version, run
 
     $ ./prepare.sh
 
-Then you can compile the io500 application running make.
+Then you can compile the io500 application running 
+
+    $ make
 
 ## Usage
 
