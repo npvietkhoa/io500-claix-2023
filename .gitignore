@@ -2,6 +2,7 @@ results/
 build/
 out/
 bin/
+schema-tools
 core
 vgcore.*
 io500
