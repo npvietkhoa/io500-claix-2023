@@ -5,7 +5,7 @@
 #SBATCH --time=01:59:00
 #SBATCH --ntasks=16
 #SBATCH --nodes=1
-#SBATCH --error=error_%x_%A_%a.err
+
 
 ml purge
 ml load iimpi
