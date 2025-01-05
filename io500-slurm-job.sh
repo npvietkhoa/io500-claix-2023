@@ -5,7 +5,6 @@
 #SBATCH --time=01:59:00
 #SBATCH --ntasks=16
 #SBATCH --nodes=1
-#SBATCH --output=/hpcwork/ph077533/io500-beeond/io500-beeond_%j.out
 #SBATCH --error=error_%x_%A_%a.err
 
 ml purge
